@@ -11,7 +11,7 @@ To systematically explore the complex Potential Energy Surface (PES) and constru
 
 ## ⚙️ Dependencies
 
-Ensure you have the following Python packages installed before running the scripts:
+Ensure you have the following basic Python packages installed before running the scripts:
 
 ```bash
-pip install numpy scipy tqdm ase jsex
+pip install numpy scipy tqdm ase
