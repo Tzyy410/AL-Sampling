@@ -1,5 +1,7 @@
 # AL-Sampling: Active Learning Sampling Strategies for NNAPs
-
+<p align="center">
+  <img src="TOC.png" width="800">
+</p>
 This repository provides the core **Active Learning Sampling Methods (Query Strategies)** implemented for the global structure search of neutral Gold clusters. 
 
 To systematically explore the complex Potential Energy Surface (PES) and construct a highly robust Neural Network Atomic Potential (NNAP) with minimal DFT computational cost, we employ a dual-stage sampling framework:
