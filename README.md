@@ -73,5 +73,3 @@ In our global search workflow, these sampling strategies are coupled iteratively
 5. **Model Retraining**: Train the NNAP and advance to the next generation.
 
 ---
-```
-*(Citation details will be updated upon publication).*
