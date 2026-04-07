@@ -73,15 +73,5 @@ In our global search workflow, these sampling strategies are coupled iteratively
 5. **Model Retraining**: Train the NNAP and advance to the next generation.
 
 ---
-
-## 📂 Data Assets (Models & Structures)
-
-In addition to the sampling codes, this repository will also host the data assets generated from this workflow:
-- **Trained NNAP Potentials**: The final robust force field parameters for Gold clusters.
-- **Optimized Geometries**: The `.xyz` files of the lowest-energy structures found for Au30-Au45.
-
-*(Data files will be uploaded and linked here).*
-
----
 ```
 *(Citation details will be updated upon publication).*
