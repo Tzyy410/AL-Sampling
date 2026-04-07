@@ -26,7 +26,7 @@ pip install numpy scipy tqdm ase
 ## 🛠️ Sampling Methods Overview
 
 ### 1. Diversity-based Sampling via CUR Decomposition (`CUR.py`)
-This module calculates global, rotationally invariant structural descriptors based on the **Spherical-Chebyshev basis** (strictly following Eq. 1 & 2 in our manuscript). It then performs a deterministic **CUR Matrix Decomposition** to extract a maximally diverse subset from the candidate pool.
+This module calculates global, rotationally invariant structural descriptors based on the **Spherical-Chebyshev basis**. It then performs a deterministic **CUR Matrix Decomposition** to extract a maximally diverse subset from the candidate pool.
 
 **Key Feature:** Incorporates a *Prior-Knowledge Orthogonalization* mechanism. It actively purges structural features that are already well-represented in the existing training database, ensuring pure novelty in the selected samples.
 
