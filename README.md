@@ -83,17 +83,5 @@ In addition to the sampling codes, this repository will also host the data asset
 *(Data files will be uploaded and linked here).*
 
 ---
-
-## 📚 Citation
-
-If you find these active learning sampling scripts or the structural data helpful for your research, please consider citing our work:
-
-```bibtex
-@article{YourReferenceHere,
-  title={Global Structure Search of Neutral Gold Clusters via Active Learning...},
-  author={Your Name and Co-authors},
-  journal={Journal Name},
-  year={2024}
-}
 ```
 *(Citation details will be updated upon publication).*
