@@ -9,7 +9,7 @@ To systematically explore the complex Potential Energy Surface (PES) and constru
 
 ---
 
-## ⚙️ Dependencies
+## Dependencies
 
 Ensure you have the following basic Python packages installed before running the scripts:
 
@@ -17,13 +17,13 @@ Ensure you have the following basic Python packages installed before running the
 pip install numpy scipy tqdm ase
 ```
 
-> **⚠️ Important Note on `jsex` (NNAP Model):** 
+> ** Important Note on `jsex` (NNAP Model):** 
 > Loading and evaluating the NNAP model in the uncertainty sampling module (`uncertainty.py`) requires the `jse` / `jsex` package. As this package requires specific compilation and environment setup, please refer to its official repository for detailed installation instructions: 
-> **👉 [https://github.com/liqa1024/jse](https://github.com/liqa1024/jse)**
+> ** [https://github.com/liqa1024/jse](https://github.com/liqa1024/jse)**
 
 ---
 
-## 🛠️ Sampling Methods Overview
+## Sampling Methods Overview
 
 ### 1. Diversity-based Sampling via CUR Decomposition (`CUR.py`)
 This module calculates global, rotationally invariant structural descriptors based on the **Spherical-Chebyshev basis**. It then performs a deterministic **CUR Matrix Decomposition** to extract a maximally diverse subset from the candidate pool.
